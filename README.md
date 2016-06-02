@@ -58,16 +58,16 @@ In order to list all end users you can use :
 ```
 data.listUsers= xively.listUsers("1");
 ```
-In order to get a specific end user based in it's id you can use :
+In order to get a specific end user based on it's id you can use:
 ```
 data.getUser=xively.getUser("USER_ID");
 ```
-In order to retreive Latest time series you can use this function with pagesize parameter:
+In order to retreive latest time series you can use this function with pagesize parameter:
 ``` 
 //retrieve time series
 var latestTimeSeries =xively.retrieveLatestTimeSeries({"pageSize":5});
 ```
-If you need to get time series with datetime interval you can use :
+If you need to get time series with datetime interval you can use:
 ```
 //retrieve time series
 var timeSeriesByDate =xively.retrieveTimeSeries({"startDateTime":"2015-05-23T19:30:03.287Z","endDateTime":"2016-05-10T19:30:03.287Z"}
