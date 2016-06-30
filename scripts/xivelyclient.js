@@ -4,10 +4,10 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var httpclient = require("./httpclient");
-var config = require("./oauth2/config");
-var util = require("./oauth2/util");
-var tokenmanager = require("./oauth2/tokenmanager");
+ var httpclient = require("./httpclient.js");
+var config = require("./oauth2/config.js");
+var util = require("./oauth2/util.js");
+var tokenmanager = require("./oauth2/tokenmanager.js");
 var pubsub = require("pubsub");
 
 /**

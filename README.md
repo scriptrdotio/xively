@@ -27,7 +27,7 @@ This connector simplifies and streamlines the way you access Xively's APIs from 
 
 In order to use the connector, you need to import the main module: ```xively/xivelyclient```, as described below:
 ```
-var Xivelyclient = require("/modules/xively/xivelyclient");
+var Xivelyclient = require("/modules/xively/xivelyclient.js");
 ```
 You then need to create an instance of the Xivelyclient class, using one of the following options:
 ```

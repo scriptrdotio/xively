@@ -3,7 +3,7 @@
 write=nobody
 execute=authenticated 
   **/ 
-var xivelyClient = require("../xivelyclient");
+var xivelyClient = require("../xivelyclient.js");
 
 var credentials = {
   "emailAddress": "XXXXX",  
